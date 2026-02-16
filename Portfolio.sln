@@ -4,6 +4,8 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CertificationDigest.Api", "CertificationDigest.Api\CertificationDigest.Api.csproj", "{51DA5B33-B8D5-4984-A0E9-17740CBC6286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CertificationDigest.Core", "CertificationDigest.Core\CertificationDigest.Core.csproj", "{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +34,17 @@ Global
 		{51DA5B33-B8D5-4984-A0E9-17740CBC6286}.Release|x64.Build.0 = Release|Any CPU
 		{51DA5B33-B8D5-4984-A0E9-17740CBC6286}.Release|x86.ActiveCfg = Release|Any CPU
 		{51DA5B33-B8D5-4984-A0E9-17740CBC6286}.Release|x86.Build.0 = Release|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Debug|x64.Build.0 = Debug|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Debug|x86.Build.0 = Debug|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Release|x64.ActiveCfg = Release|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Release|x64.Build.0 = Release|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{EEF348D2-271F-4E2F-96A8-D3EEE9254F9D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

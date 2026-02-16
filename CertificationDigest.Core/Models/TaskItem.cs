@@ -1,4 +1,4 @@
-namespace CertificationDigest.Api.Models;
+namespace CertificationDigest.Core.Models;
 
 public class TaskItem
 {

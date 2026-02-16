@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using CertificationDigest.Api.Models;
+using CertificationDigest.Core.Models;
 
-namespace CertificationDigest.Api.Data;
+namespace CertificationDigest.Core.Data;
 
 public class AppDbContext : DbContext
 {

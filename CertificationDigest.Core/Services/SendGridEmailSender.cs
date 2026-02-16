@@ -1,7 +1,8 @@
+using Microsoft.Extensions.Configuration;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
-namespace CertificationDigest.Api.Services;
+namespace CertificationDigest.Core.Services;
 
 public class SendGridEmailSender
 {
