@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Portfolio.Api.Data;
+using CertificationDigest.Api.Data;
 
 #nullable disable
 
-namespace Portfolio.Api.Migrations
+namespace CertificationDigest.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20260214230816_InitialCreate")]
@@ -25,7 +25,7 @@ namespace Portfolio.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Portfolio.Api.Models.TaskItem", b =>
+            modelBuilder.Entity("CertificationDigest.Api.Models.TaskItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

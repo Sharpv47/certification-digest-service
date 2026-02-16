@@ -1,7 +1,7 @@
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
-namespace Portfolio.Api.Services;
+namespace CertificationDigest.Api.Services;
 
 public class SendGridEmailSender
 {

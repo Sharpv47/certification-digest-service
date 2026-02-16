@@ -3,17 +3,20 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Portfolio.Api.Data;
+using CertificationDigest.Api.Data;
 
 #nullable disable
 
-namespace Portfolio.Api.Migrations
+namespace CertificationDigest.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260215021422_AddCertsAndNotificationLog")]
+    partial class AddCertsAndNotificationLog
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,7 +25,7 @@ namespace Portfolio.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Portfolio.Api.Models.CertificationRecord", b =>
+            modelBuilder.Entity("CertificationDigest.Api.Models.CertificationRecord", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -52,7 +55,7 @@ namespace Portfolio.Api.Migrations
                     b.ToTable("CertificationRecords");
                 });
 
-            modelBuilder.Entity("Portfolio.Api.Models.NotificationLog", b =>
+            modelBuilder.Entity("CertificationDigest.Api.Models.NotificationLog", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

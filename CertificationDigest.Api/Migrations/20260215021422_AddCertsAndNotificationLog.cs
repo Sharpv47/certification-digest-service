@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Portfolio.Api.Migrations
+namespace CertificationDigest.Api.Migrations
 {
     /// <inheritdoc />
     public partial class AddCertsAndNotificationLog : Migration

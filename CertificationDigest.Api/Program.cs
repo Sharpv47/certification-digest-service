@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Portfolio.Api.Data;
-using Portfolio.Api.Models;
-using Portfolio.Api.Services;
+using CertificationDigest.Api.Data;
+using CertificationDigest.Api.Models;
+using CertificationDigest.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

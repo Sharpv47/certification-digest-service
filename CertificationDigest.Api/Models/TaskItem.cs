@@ -1,4 +1,4 @@
-namespace Portfolio.Api.Models;
+namespace CertificationDigest.Api.Models;
 
 public class TaskItem
 {
